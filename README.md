@@ -1,6 +1,7 @@
 # GlitchWin
 GlitchWin is a simple randomized glitch art lockscreen for Windows 7, heavily inspired by
 [glitchlock](https://github.com/xero/glitchlock)
+![glitchwin screenshot](https://i.imgur.com/f51spkX.png "glitchwin screenshot")
 
 ## Building
 GlitchWin can be built with Visual Studio 2017 with the .NET 4.7.1 Targeting Pack or equivalent.
@@ -9,6 +10,8 @@ GlitchWin can be built with Visual Studio 2017 with the .NET 4.7.1 Targeting Pac
 ## Usage
 Simply run GlitchWin.exe with no arguments to start the daemon. By default, the lockscreen is
 updated every five minutes or when the session state changes.
+
+Run `GlitchWin delet` to restore the original lock screen.
 
 ### Limitations
 Because of Windows limitations, the lockscreen can not be updated in time so that an up-to-date
@@ -24,4 +27,5 @@ Possible workarounds include:
   application to a Windows application, which would take some work)
 
 ## License
-In the spirit of mandatory copyleft, I've licensed this program under the MS-RL.
+In the spirit of mandatory copyleft, I've licensed this program under the
+[MS-RL](https://github.com/uwx/glitchwin/raw/master/LICENSE.txt).
