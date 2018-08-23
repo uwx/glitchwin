@@ -2,6 +2,7 @@
 GlitchWin is a simple randomized glitch art lockscreen for Windows 7, heavily inspired by
 [glitchlock](https://github.com/xero/glitchlock)
 ![glitchwin screenshot](https://i.imgur.com/f51spkX.png "glitchwin screenshot")
+_\* Images are basically random, your mileage may vary_
 
 ## Building
 GlitchWin can be built with Visual Studio 2017 with the .NET 4.7.1 Targeting Pack or equivalent.
