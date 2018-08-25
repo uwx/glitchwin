@@ -26,6 +26,8 @@ Possible workarounds include:
 * Hooking into [SessionEnding](https://docs.microsoft.com/en-us/dotnet/api/microsoft.win32.systemevents.sessionending?view=netframework-4.7.2)
   (I might look into this at some point, as it stands it would require migrating from a console
   application to a Windows application, which would take some work)
+* Hooking into key presses (e.g WIN+L) and other events, such as the start menu being clicked and
+  SystemEvents.PowerModeChanged.
 
 ## License
 In the spirit of mandatory copyleft, I've licensed this program under the
